@@ -1,0 +1,53 @@
+.require
+    min-height: 920px
+    padding: 68px 0 94px 0
+    &_block
+        margin-top: 33px
+    &__lebel
+        display: block
+        margin: 0 auto
+        width: 112px
+        height: 24px
+        background-color: #000000
+        color: #ffffff
+        font-size: 11px
+        font-weight: 400
+        text-transform: uppercase
+        padding: 5px 12px
+    &__title
+        margin-top: 33px
+        color: #1ca8c3
+        font-size: 22px
+        font-weight: 400
+        &_red
+            color: #ff5656;    
+    &__descr
+        color: #1ca8c3
+        font-weight: 300
+        font-size: 17px
+        font-weight: 300
+        line-height: 24px
+    &__list
+        color: #222222;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 24px;
+        li 
+            list-style-type: none
+            margin-top: 14px
+            position: relative
+            &:before
+                content: ''
+                display: block
+                position: absolute
+                left: -32px
+                top: 3px
+                width: 21px
+                height: 20px
+                background: url(../../icons/blue.png) center (center / cover) no-repeat
+        &_red
+            li  
+                &::before  
+                    background: url(../../icons/red.png)  center (center / cover) no-repeat       
+
+                
